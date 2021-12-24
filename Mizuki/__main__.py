@@ -23,7 +23,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from Mizuki import (
+from ben Tennyson import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -43,9 +43,9 @@ from Mizuki import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Mizuki.modules import ALL_MODULES
-from Mizuki.modules.helper_funcs.chat_status import is_user_admin
-from Mizuki.modules.helper_funcs.misc import paginate_modules
+from ben Tennyson.modules import ALL_MODULES
+from ben Tennyson.modules.helper_funcs.chat_status import is_user_admin
+from ben Tennyson.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
@@ -76,15 +76,18 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """*Hey there, my name is Mizuki 👸\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands.*"""
+PM_START_TEXT = """*Hey there, my name is Ben Tennyson \n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands.*"""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
+        InlineKeyboardButton(text="♞ Support", url="https://t.me/sctbotsSupport"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤗 Source Code", url="https://github.com/ImJanindu/Mizuki"
+            text="🤗 Source Code", url="https://github.com/Devilharsha/tarau"),
+
+
+"
         ),
     ],
     [
