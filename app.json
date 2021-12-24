@@ -8,7 +8,7 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/ImJanindu/Mizuki",
+   "repository": "https://github.com/Devilharsha/tarau",
    "addons": [
       {
          "options": {
@@ -26,12 +26,12 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "7931165"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "5a2e46d1e6deb1456c75aa743bc8e0e6"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -41,16 +41,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "1615607413"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": ""
+         "value": "harshahero"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Mizuki support than consider you made an enemy.",
          "required": true,
-         "value": ""
+         "value": "sctbotsSupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -146,7 +146,7 @@
       },      
       "STRING_SESSION ": {
          "description": "Telethon string session from https://repl.it/@SpEcHiDe/GenerateStringSession",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "CHAT_BASE_TOKEN": {
@@ -167,7 +167,7 @@
       "BOT_ID": {
          "description": "ID of bot.. get it from other bot",
          "required": true,
-         "value": ""
+         "value": "1926801217"
       },         
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
